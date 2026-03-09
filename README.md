@@ -423,10 +423,7 @@ gunicorn berit_api.wsgi:application --bind 0.0.0.0:4000 --workers 3
 ## Documentation
 
 - **[COMMANDS.md](COMMANDS.md)** - Quick command reference
-- **[QUICK_START.md](QUICK_START.md)** - Quick setup guide
-- **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Detailed installation instructions
 - **[TESTING_GUIDE.md](TESTING_GUIDE.md)** - API testing workflows
-- **[USER_GUIDE.md](USER_GUIDE.md)** - End-user documentation
 - **[ROADMAP.md](ROADMAP.md)** - Development roadmap
 - **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** - System architecture
 
