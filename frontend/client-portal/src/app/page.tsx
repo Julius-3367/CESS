@@ -3,12 +3,12 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { 
-  ArrowRight, 
-  Shield, 
-  TrendingUp, 
-  Users, 
-  CheckCircle, 
+import {
+  ArrowRight,
+  Shield,
+  TrendingUp,
+  Users,
+  CheckCircle,
   Calculator,
   FileText,
   Clock,
@@ -38,7 +38,7 @@ function ContactForm() {
     try {
       // Simulate API call - replace with actual endpoint
       await new Promise(resolve => setTimeout(resolve, 1500))
-      
+
       // Here you would typically send to your backend:
       // const response = await fetch('/api/contact', {
       //   method: 'POST',
@@ -269,16 +269,16 @@ export default function HomePage() {
                   Serving Kiambu & Nairobi Counties
                 </span>
               </div>
-              
+
               <h1 className="text-5xl md:text-6xl font-display font-bold text-brand-deep-rose leading-tight">
                 Where Vision Meets
                 <span className="gradient-text block mt-2">
                   Responsible Capital
                 </span>
               </h1>
-              
+
               <p className="text-xl text-brand-slate leading-relaxed">
-                Access business loans from <span className="font-semibold text-brand-red">KES 1,000</span> to 
+                Access business loans from <span className="font-semibold text-brand-red">KES 1,000</span> to
                 <span className="font-semibold text-brand-red"> KES 5,000,000</span> with competitive rates starting at <span className="font-semibold text-brand-gold">5%</span> monthly interest.
               </p>
 
@@ -317,7 +317,7 @@ export default function HomePage() {
                 <h3 className="text-2xl font-bold text-brand-deep-rose">
                   Why Choose Us
                 </h3>
-                
+
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <TrendingUp className="text-brand-red mt-1 flex-shrink-0" size={22} />
@@ -326,7 +326,7 @@ export default function HomePage() {
                       <p className="text-sm text-brand-slate">Interest rates from 5% to 20% monthly</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-3">
                     <Shield className="text-brand-navy mt-1 flex-shrink-0" size={22} />
                     <div>
@@ -334,7 +334,7 @@ export default function HomePage() {
                       <p className="text-sm text-brand-slate">Registered with NDTC and compliant</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-3">
                     <Clock className="text-rose-600 mt-1 flex-shrink-0" size={22} />
                     <div>
@@ -342,7 +342,7 @@ export default function HomePage() {
                       <p className="text-sm text-brand-slate">Applications reviewed within 24-48 hours</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-3">
                     <FileText className="text-brand-gold mt-1 flex-shrink-0" size={22} />
                     <div>
@@ -351,7 +351,7 @@ export default function HomePage() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="border-t border-rose-200 pt-6">
                   <p className="text-brand-slate text-sm">
                     Integrity. Access. Growth.
